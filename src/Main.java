@@ -29,7 +29,7 @@ public class Main {
                 System.out.println("Passagerer " + ((bus) k.get(i)).getPassagerer());
             }
             if (k.get(i) instanceof lastbil) {
-                System.out.println(((lastbil) k.get(i)).getHestekraefter());
+                System.out.println("Hestekræfter " + ((lastbil) k.get(i)).getHestekraefter());
                 System.out.println("Lastkapacitet " + ((lastbil) k.get(i)).getLastkapacitet());
             }
         }
